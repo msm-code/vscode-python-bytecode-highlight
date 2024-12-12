@@ -1,0 +1,40 @@
+
+  11           LOAD_CONST              23 (0)
+               LOAD_CONST              24 (None)
+               IMPORT_NAME             10 (zlib)
+               STORE_NAME              10 (zlib)
+
+  12           LOAD_CONST              23 (0)
+               LOAD_CONST              25 (('cpu_count',))
+               IMPORT_NAME             11 (multiprocessing)
+               IMPORT_FROM             12 (cpu_count)
+               STORE_NAME              12 (cpu_count)
+               POP_TOP
+
+  13           LOAD_CONST              23 (0)
+               LOAD_CONST              26 (('MultipartEncoder',))
+               IMPORT_NAME             13 (requests_toolbelt.multipart.encoder)
+               IMPORT_FROM             14 (MultipartEncoder)
+               STORE_NAME              14 (MultipartEncoder)
+               POP_TOP
+
+  14           LOAD_CONST              23 (0)
+               LOAD_CONST              27 (('ZIP_DEFLATED', 'ZipFile'))
+               IMPORT_NAME             15 (zipfile)
+               IMPORT_FROM             16 (ZIP_DEFLATED)
+               STORE_NAME              16 (ZIP_DEFLATED)
+               IMPORT_FROM             17 (ZipFile)
+               STORE_NAME              17 (ZipFile)
+               POP_TOP
+
+  15           LOAD_CONST              23 (0)
+               LOAD_CONST              24 (None)
+               IMPORT_NAME             18 (psutil)
+               STORE_NAME              18 (psutil)
+
+  18           LOAD_NAME                5 (os)
+               LOAD_ATTR               38 (getenv)
+               PUSH_NULL
+               LOAD_CONST              28 ('temp')
+               CALL                     1
+               STORE_NAME              20 (temp)
