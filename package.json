@@ -10,6 +10,7 @@
     "categories": [
         "Programming Languages"
     ],
+    "main": "./extension.js",
     "contributes": {
         "languages": [{
             "id": "pybc",

@@ -38,3 +38,10 @@
                LOAD_CONST              28 ('temp')
                CALL                     1
                STORE_NAME              20 (temp)
+
+
+              // Hover over text in `<...>`, and ctrl+click to navigate to "definition"
+              LOAD_CONST               5 (<code object Settings at 0x23ca1650, file "<x>", line 23>)
+
+
+Disassembly of <code object Settings at 0x23ca1650, file "<x>", line 23>:
